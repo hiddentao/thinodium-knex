@@ -10,7 +10,8 @@ gulp.task('tests', function () {
   return gulp.src('./test/**/*.test.js', { read: false })
       .pipe(mocha({
         ui: 'exports',
-        reporter: 'spec'
+        reporter: 'spec',
+        timeout: 5000,
       }))
       .on('error', function(err) {
         console.error(err.stack);
@@ -21,6 +22,3 @@ gulp.task('tests', function () {
 
 
 gulp.task('default', ['tests']);
-
-
-

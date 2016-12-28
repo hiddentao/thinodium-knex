@@ -4,7 +4,7 @@
   "description": "Knex adapter for Thinodium ODM library",
   "main": "index.js",
   "scripts": {
-    "test": "gulp"
+    "test": "PGPASSFILE=./test/test.pgpass gulp"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,8 @@
   "dependencies": {
     "bluebird": "^3.4.6",
     "knex": "^0.12.6",
-    "lodash": "^4.15.0"
+    "lodash": "^4.15.0",
+    "pg": "^6.1.2"
   },
   "peerDependencies": {
     "thinodium": "^1.x.x"
@@ -42,6 +43,6 @@
     "mocha": "^2.1.0",
     "sinon": "^1.12.2",
     "sinon-chai": "^2.8.0",
-    "thinodium": "^1.1.1"
+    "thinodium": "^1.1.5"
   }
 }
