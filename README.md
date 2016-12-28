@@ -53,7 +53,7 @@ Check out the [thinodium docs](https://hiddentao.github.io/thinodium) for furthe
 Install Postgres and create the test user (use `thinodium` as the password when prompted):
 
 ```bash
-$ createuser -d -L -r -s -W thinodium
+$ createuser -d -l -r -s -W thinodium
 $ createdb thinodium_knex
 ```
 
