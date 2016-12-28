@@ -11,8 +11,8 @@ node_js:
   - "6"
 
 before_script:
-  - psql -c 'CREATE ROLE thinodium WITH LOGIN PASSWORD "thinodium" SUPERUSER;' -U postgres
-  - psql -c 'CREATE DATABASE thinodium_knex;' -U postgres
+  - psql -c "CREATE ROLE thinodium WITH SUPERUSER LOGIN PASSWORD 'thinodium';" -U postgres
+  - psql -c "CREATE DATABASE thinodium_knex;" -U postgres
   - "npm install"
 
 script:
