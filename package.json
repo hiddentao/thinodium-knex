@@ -1,6 +1,6 @@
 {
   "name": "thinodium-knex",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Knex adapter for Thinodium ODM library, for working with relational databases",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hiddentao/thinodium-knex.git"
+    "url": "https://github.com/thinodium/thinodium-knex.git"
   },
   "keywords": [
     "odm",
@@ -22,9 +22,9 @@
   "author": "Ramesh Nair <ram@hiddentao.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hiddentao/thinodium-knex/issues"
+    "url": "https://github.com/thinodium/thinodium-knex/issues"
   },
-  "homepage": "https://github.com/hiddentao/thinodium-knex#readme",
+  "homepage": "https://github.com/thinodium/thinodium-knex#readme",
   "dependencies": {
     "bluebird": "^3.4.6",
     "knex": "^0.12.6",
